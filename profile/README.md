@@ -36,6 +36,17 @@ Systems that handle regulated data are only as trustworthy as their failure mode
 | **[ai-slopcheck](https://github.com/Euraika-Labs/ai-slopcheck)** | stable | Python | Deterministic scanner for AI-style code failures, including error-swallowing and leftover mocks. 72 rules. `pip install ai-slopcheck`. |
 | **[benchforge](https://github.com/Euraika-Labs/benchforge)** | alpha | Rust | macOS workbench for reproducible benchmarks of local and cloud LLMs, with inspectable artifacts. |
 
+### Security research in progress
+
+Open research projects. No releases or results yet; each README states the question, threat model, method and what it will not claim. Contributions and discussion welcome.
+
+| Project | What it studies |
+|---|---|
+| **[skillcheck](https://github.com/Euraika-Labs/skillcheck)** | Deterministic scanning of Agent Skills, hooks and MCP manifests for exfiltration, hidden instructions and over-broad capability. |
+| **[injection-bench](https://github.com/Euraika-Labs/injection-bench)** | A reproducible prompt-injection corpus for tool-using agents, organised by vector, with mechanical success checks. |
+| **[memory-poisoning](https://github.com/Euraika-Labs/memory-poisoning)** | How injected instructions persist through agent memory systems, and which defences hold. |
+| **[approval-gate-bypass](https://github.com/Euraika-Labs/approval-gate-bypass)** | Adversarial evaluation of desktop-agent approval gates, starting with our own. |
+
 ## Commercial products
 
 The commercial products ship under commercial licences but are designed to run end-to-end inside the customer's own infrastructure:
